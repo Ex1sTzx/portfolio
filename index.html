@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Kajla | AI & Python Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SK<span>.AI</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">Hi, I'm <br><span class="highlight">Samarth Kajla</span></h1>
+            <h2 class="hero-subtitle">I build <span class="typing-text"></span><span class="cursor">|</span></h2>
+            <p class="hero-description">Passionate AI & Python Developer focused on creating intelligent solutions,
+                robust AI systems, and cutting-edge software.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-graphic fade-in">
+            <div class="glass-orb orb-1"></div>
+            <div class="glass-orb orb-2"></div>
+            <div class="glass-card mockup">
+                <i class="fa-brands fa-python"></i>
+                <div class="mockup-line w-100"></div>
+                <div class="mockup-line w-75"></div>
+                <div class="mockup-line w-50"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2 class="section-title fade-in">About <span class="highlight">Me</span></h2>
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <p>I am an enthusiastic <strong>AI and Python Developer</strong> who loves diving into new
+                        challenges. I'm a naturally quick learner, and I spend most of my time hands-on, constantly
+                        building new systems to expand my skill set.</p>
+                    <p>Whether I'm exploring the latest advancements in Artificial Intelligence or tackling complex
+                        backend logic, my focus is always on adapting fast, experimenting with fresh ideas, and writing
+                        clean, efficient code.</p>
+
+                    <div class="languages mt-3">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li><i class="fas fa-globe"></i> <strong>English:</strong> Fluent</li>
+                            <li><i class="fas fa-globe"></i> <strong>German:</strong> A2 (Learning)</li>
+                            <li><i class="fas fa-globe"></i> <strong>Hindi:</strong> Native</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-stats glass-panel">
+                    <div class="stat-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Python</h3>
+                        <p>Core Expertise</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI / ML</h3>
+                        <p>Specialization</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Coding 1 & 2</h3>
+                        <p>Certified Professional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <h2 class="section-title fade-in">Technical <span class="highlight">Arsenal</span></h2>
+            <div class="skills-grid fade-in">
+                <div class="skill-category glass-panel">
+                    <h3><i class="fas fa-layer-group"></i> Core Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Artificial Intelligence</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Gen AI</span>
+                        <span class="skill-tag">Vibe Coding</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel">
+                    <h3><i class="fas fa-laptop-code"></i> Tools & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">n8n</span>
+                        <span class="skill-tag">Scikit-Learn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <h2 class="section-title fade-in">Featured <span class="highlight">Projects</span></h2>
+            <div class="project-grid fade-in">
+                <!-- Project 1 -->
+                <div class="project-card glass-panel">
+                    <div class="project-image">
+                        <div class="placeholder-img"><i class="fa-solid fa-gamepad"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>2048 Game</h3>
+                        <p>An interactive Python-based 2048 game demonstrating core programming logic, event handling,
+                            and user interaction mechanics.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Game Logic</span>
+                            <span>Architecture</span>
+                        </div>
+                        <div class="project-links mt-3">
+                            <a href="https://github.com/Ex1sTzx/2048" target="_blank" class="btn-icon"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Crypto Intelligence Dashboard Project -->
+                <div class="project-card glass-panel">
+                    <div class="project-image">
+                        <div class="placeholder-img"><i class="fa-solid fa-chart-line"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Crypto Intelligence Dashboard</h3>
+                        <p>A professional, fintech-style crypto intelligence terminal providing a clean, fast interface. Features real-time price updates, built-in caching, and AI-powered news sentiment analysis.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>AI Sentiment Analysis</span>
+                        </div>
+                        <div class="project-links mt-3">
+                            <a href="https://github.com/Ex1sTzx/Crypto-Intelligence-Dashboard" target="_blank" class="btn-icon"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="contact-box glass-panel fade-in">
+                <h2 class="section-title" style="margin-bottom: 1.5rem;">Let's <span class="highlight">Connect</span>
+                </h2>
+                <p>I'm currently open to new opportunities. Whether you have an exciting project, a question, or just
+                    want to say hi, I'll try my best to get back to you!</p>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/samarthkajla" target="_blank" class="social-icon"
+                        title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Ex1sTzx" target="_blank" class="social-icon" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=samarthkajla@gmail.com" target="_blank"
+                        class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=samarthkajla@gmail.com" target="_blank"
+                    class="btn btn-primary mt-3">Say Hello <i class="fas fa-paper-plane"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Samarth Kajla. Built with Passion & AI.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
