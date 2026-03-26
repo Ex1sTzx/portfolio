@@ -90,7 +90,7 @@
                     </div>
                     <div class="stat-item">
                         <i class="fas fa-certificate"></i>
-                        <h3>Coding 1 & 2</h3>
+                        <h3>Practical Python Coding 1 & 2</h3>
                         <p>Certified Professional</p>
                     </div>
                 </div>
@@ -133,23 +133,55 @@
         <div class="section-container">
             <h2 class="section-title fade-in">Featured <span class="highlight">Projects</span></h2>
             <div class="project-grid fade-in">
-                <!-- Project 1: TutorMe Study Assistant -->
+                <!-- Project 1: Stock Analysis -->
                 <div class="project-card glass-panel">
                     <div class="project-image">
-                        <div class="placeholder-img"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="placeholder-img"><i class="fa-solid fa-chart-line"></i></div>
                     </div>
                     <div class="project-info">
-                        <h3>TutorMe - Study Assistant</h3>
-                        <p>Built an intelligent study assistant that lets users upload PDFs and instantly generate concise notes, detailed summaries, flashcards, and multiple-choice questions through a sophisticated Retrieval‑Augmented Generation (RAG) pipeline. The system leverages a FAISS vector store powered by Nomic embed‑text embeddings for fast, accurate semantic search across all course materials. It features a clean, responsive UI with progress indicators and customizable settings for language model selection, enabling students to study more efficiently and retain knowledge longer.</p>
+                        <h3>Stock Analysis</h3>
+                        <p>A comprehensive stock market analysis platform that retrieves real-time and historical price
+                            data
+                            through the Yahoo Finance API and processes it with a full suite of technical indicators —
+                            including RSI, MACD, Bollinger Bands, and moving averages — to surface actionable market
+                            signals.
+                            At its core, the project implements <strong>Gaussian Process (GP) Regression</strong>, a
+                            probabilistic machine learning technique that models the underlying price distribution as a
+                            multivariate Gaussian, defined by a mean function and a covariance kernel. Unlike
+                            point-estimate
+                            models, GP regression produces a full posterior distribution over future prices, meaning
+                            every
+                            prediction comes with a quantified confidence interval rather than a single number. The
+                            kernel
+                            function — a combination of RBF and periodic kernels — captures both the smooth long-term
+                            trend
+                            and the cyclical seasonality inherent in financial time series. Hyperparameters are
+                            optimised by
+                            maximising the log marginal likelihood, allowing the model to automatically balance fit and
+                            complexity without manual tuning. The result is a forecast curve overlaid directly on the
+                            price
+                            chart, with shaded uncertainty bands that widen as the prediction horizon extends — giving
+                            users
+                            an honest, statistically grounded view of where a stock may be headed and how confident the
+                            model
+                            is at each future step. Users can compare multiple tickers side by side, adjust date ranges,
+                            and
+                            export full analysis reports.</p>
+
                         <div class="project-tech">
                             <span>Python</span>
-                            <span>RAG</span>
-                            <span>FAISS</span>
-                            <span>Ollama</span>
-                            <span>LangChain</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Scikit-learn</span>
+                            <span>Gaussian Processes</span>
+                            <span>SciPy</span>
+                            <span>Matplotlib</span>
+                            <span>Plotly</span>
+                            <span>Yahoo Finance API</span>
                         </div>
                         <div class="project-links mt-3">
-                            <a href="https://github.com/Ex1sTzx/TutorMe" target="_blank" class="btn-icon"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="https://github.com/Ex1sTzx/Stock-Analysis" target="_blank" class="btn-icon"><i
+                                    class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -161,34 +193,49 @@
                     </div>
                     <div class="project-info">
                         <h3>Crypto Intelligence Dashboard</h3>
-                        <p>A professional, fintech-style crypto intelligence terminal providing a clean, fast interface. Features real-time price updates, built-in caching, and AI-powered news sentiment analysis.</p>
+                        <p>A professional, fintech-style crypto intelligence terminal providing a clean, fast interface.
+                            Features real-time price updates, built-in caching, and AI-powered news sentiment analysis.
+                        </p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>Streamlit</span>
                             <span>AI Sentiment Analysis</span>
                         </div>
                         <div class="project-links mt-3">
-                            <a href="https://github.com/Ex1sTzx/Crypto-Intelligence-Dashboard" target="_blank" class="btn-icon"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="https://github.com/Ex1sTzx/Crypto-Intelligence-Dashboard" target="_blank"
+                                class="btn-icon"><i class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
-                <div class="project-card glass-panel">
-    <div class="project-image">
-        <div class="placeholder-img"><i class="fa-solid fa-chart-line"></i></div>
-    </div>
-    <div class="project-info">
-        <h3>Stock Analysis</h3>
-        <p>A comprehensive stock market analysis tool using Python, pandas, and machine learning to predict trends and visualize data.</p>
-        <div class="project-tech">
-            <span>Python</span>
-            <span>Pandas</span>
-            <span>Machine Learning</span>
-        </div>
-        <div class="project-links mt-3">
-            <a href="https://github.com/Ex1sTzx/Stock-Analysis" target="_blank" class="btn-icon"><i class="fab fa-github"></i> Source Code</a>
-        </div>
-    </div>
-</div>
-</div>
+                    <!-- Project 3: TutorMe Study Assistant -->
+                    <div class="project-card glass-panel">
+                        <div class="project-image">
+                            <div class="placeholder-img"><i class="fa-solid fa-graduation-cap"></i></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>TutorMe - Study Assistant</h3>
+                            <p>Built an intelligent study assistant that lets users upload PDFs and instantly generate
+                                concise notes, detailed summaries, flashcards, and multiple-choice questions through a
+                                sophisticated Retrieval‑Augmented Generation (RAG) pipeline. The system leverages a
+                                FAISS
+                                vector store powered by Nomic embed‑text embeddings for fast, accurate semantic search
+                                across all course materials. It features a clean, responsive UI with progress indicators
+                                and
+                                customizable settings for language model selection, enabling students to study more
+                                efficiently and retain knowledge longer.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>RAG</span>
+                                <span>FAISS</span>
+                                <span>Ollama</span>
+                                <span>LangChain</span>
+                            </div>
+                            <div class="project-links mt-3">
+                                <a href="https://github.com/Ex1sTzx/TutorMe" target="_blank" class="btn-icon"><i
+                                        class="fab fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
