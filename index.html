@@ -140,33 +140,7 @@
                     </div>
                     <div class="project-info">
                         <h3>Stock Analysis</h3>
-                        <p>A comprehensive stock market analysis platform that retrieves real-time and historical price
-                            data
-                            through the Yahoo Finance API and processes it with a full suite of technical indicators —
-                            including RSI, MACD, Bollinger Bands, and moving averages — to surface actionable market
-                            signals.
-                            At its core, the project implements <strong>Gaussian Process (GP) Regression</strong>, a
-                            probabilistic machine learning technique that models the underlying price distribution as a
-                            multivariate Gaussian, defined by a mean function and a covariance kernel. Unlike
-                            point-estimate
-                            models, GP regression produces a full posterior distribution over future prices, meaning
-                            every
-                            prediction comes with a quantified confidence interval rather than a single number. The
-                            kernel
-                            function — a combination of RBF and periodic kernels — captures both the smooth long-term
-                            trend
-                            and the cyclical seasonality inherent in financial time series. Hyperparameters are
-                            optimised by
-                            maximising the log marginal likelihood, allowing the model to automatically balance fit and
-                            complexity without manual tuning. The result is a forecast curve overlaid directly on the
-                            price
-                            chart, with shaded uncertainty bands that widen as the prediction horizon extends — giving
-                            users
-                            an honest, statistically grounded view of where a stock may be headed and how confident the
-                            model
-                            is at each future step. Users can compare multiple tickers side by side, adjust date ranges,
-                            and
-                            export full analysis reports.</p>
+                        <p>A comprehensive stock market analysis platform that retrieves real-time data via the Yahoo Finance API, applying a full suite of technical indicators to surface actionable signals. It leverages <strong>Gaussian Process (GP) Regression</strong> to generate probabilistic forecasts with quantified confidence intervals, cleanly modeling both smooth long-term trends and cyclical seasonality. The result is a beautifully rendered forecast curve with shaded uncertainty bands, allowing users to compare multiple tickers side-by-side and export full reports.</p>
 
                         <div class="project-tech">
                             <span>Python</span>
@@ -193,46 +167,79 @@
                     </div>
                     <div class="project-info">
                         <h3>Crypto Intelligence Dashboard</h3>
-                        <p>A professional, fintech-style crypto intelligence terminal providing a clean, fast interface.
-                            Features real-time price updates, built-in caching, and AI-powered news sentiment analysis.
-                        </p>
+                        <p>A professional, fintech-style cryptocurrency intelligence terminal built with Python and Streamlit, providing a clean, interactive dashboard. Features a 3-panel layout integrating real-time market data across multiple currencies using CoinMarketCap and CoinGecko APIs. The platform embeds live TradingView charts and leverages OpenRouter’s AI models to deliver dynamic news-based market sentiment analysis. Designed for high performance, it utilizes advanced caching mechanisms to ensure lightning-fast API responses and seamless data visualization.</p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>Streamlit</span>
-                            <span>AI Sentiment Analysis</span>
+                            <span>Plotly</span>
+                            <span>CoinMarketCap API</span>
+                            <span>CoinGecko API</span>
+                            <span>News API</span>
+                            <span>OpenRouter AI</span>
                         </div>
                         <div class="project-links mt-3">
                             <a href="https://github.com/Ex1sTzx/Crypto-Intelligence-Dashboard" target="_blank"
                                 class="btn-icon"><i class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
-                    <!-- Project 3: TutorMe Study Assistant -->
-                    <div class="project-card glass-panel">
-                        <div class="project-image">
-                            <div class="placeholder-img"><i class="fa-solid fa-graduation-cap"></i></div>
+                </div>
+
+                <!-- Project 3: TutorMe Study Assistant -->
+                <div class="project-card glass-panel">
+                    <div class="project-image">
+                        <div class="placeholder-img"><i class="fa-solid fa-graduation-cap"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>TutorMe - Study Assistant</h3>
+                        <p>Built an intelligent study assistant that lets users upload PDFs and instantly generate
+                            concise notes, detailed summaries, flashcards, and multiple-choice questions through a
+                            sophisticated Retrieval‑Augmented Generation (RAG) pipeline. The system leverages a
+                            FAISS
+                            vector store powered by Nomic embed‑text embeddings for fast, accurate semantic search
+                            across all course materials. It features a clean, responsive UI with progress indicators
+                            and
+                            customizable settings for language model selection, enabling students to study more
+                            efficiently and retain knowledge longer.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>LangChain</span>
+                            <span>FAISS</span>
+                            <span>Ollama (Llama 3.2)</span>
+                            <span>RAG</span>
+                            <span>Vanilla JS</span>
                         </div>
-                        <div class="project-info">
-                            <h3>TutorMe - Study Assistant</h3>
-                            <p>Built an intelligent study assistant that lets users upload PDFs and instantly generate
-                                concise notes, detailed summaries, flashcards, and multiple-choice questions through a
-                                sophisticated Retrieval‑Augmented Generation (RAG) pipeline. The system leverages a
-                                FAISS
-                                vector store powered by Nomic embed‑text embeddings for fast, accurate semantic search
-                                across all course materials. It features a clean, responsive UI with progress indicators
-                                and
-                                customizable settings for language model selection, enabling students to study more
-                                efficiently and retain knowledge longer.</p>
-                            <div class="project-tech">
-                                <span>Python</span>
-                                <span>RAG</span>
-                                <span>FAISS</span>
-                                <span>Ollama</span>
-                                <span>LangChain</span>
-                            </div>
-                            <div class="project-links mt-3">
-                                <a href="https://github.com/Ex1sTzx/TutorMe" target="_blank" class="btn-icon"><i
-                                        class="fab fa-github"></i> Source Code</a>
-                            </div>
+                        <div class="project-links mt-3">
+                            <a href="https://github.com/Ex1sTzx/TutorMe" target="_blank" class="btn-icon"><i
+                                    class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: DataLens -->
+                <div class="project-card glass-panel">
+                    <div class="project-image">
+                        <div class="placeholder-img"><i class="fa-solid fa-chart-pie"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>DataLens - CSV Analyzer</h3>
+                        <p>A fast, robust CSV analyzer providing a stunning dark-mode "liquid glass" UI and powerful
+                            exploratory data analysis. Built with a Flask backend to securely process datasets up to
+                            100MB directly to disk, avoiding memory constraints. Features automatic data type inference,
+                            expressive distribution visualizations via Chart.js, deep univariate statistics, and
+                            bivariate analysis using continuous linear regression and stacked cross-tabulations.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>SciPy</span>
+                            <span>Chart.js</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links mt-3">
+                            <a href="https://github.com/Ex1sTzx/datalens" target="_blank" class="btn-icon"><i
+                                    class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
                 </div>
